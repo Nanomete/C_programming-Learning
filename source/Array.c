@@ -15,6 +15,7 @@ int main() {
    printf("\n---------------------------\n");
 
 	// command to find the minimum to maximum values
+   // for loop
    for (i = 0; i < ArraySize; i++) {
       value = Data[i];
       for (j = i - 1; j >= 0; j--) {
